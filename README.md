@@ -120,11 +120,14 @@ python build_rag.py
 ## Citation
 
 ```bibtex
-@misc{VoiceSculptor,
-      title={VoiceSculptor: Your Voice, Designed By You},
+@misc{hu2026voicesculptorvoicedesigned,
+      title={VoiceSculptor: Your Voice, Designed By You}, 
       author={Jingbin Hu and Huakang Chen and Linhan Ma and Dake Guo and Qirui Zhan and Wenhao Li and Haoyu Zhang and Kangxiang Xia and Ziyu Zhang and Wenjie Tian and Chengyou Wang and Jinrui Liang and Shuhan Guo and Zihang Yang and Bengu Wu and Binbin Zhang and Pengcheng Zhu and Pengyuan Xie and Chuan Xie and Qiang Zhang and Jie Liu and Lei Xie},
       year={2026},
-      url={https://github.com/ASLP-lab/VoiceSculptor},
+      eprint={2601.10629},
+      archivePrefix={arXiv},
+      primaryClass={eess.AS},
+      url={https://arxiv.org/abs/2601.10629}, 
 }
 @misc{ye2025llasascalingtraintimeinferencetime,
       title={Llasa: Scaling Train-Time and Inference-Time Compute for Llama-based Speech Synthesis},
