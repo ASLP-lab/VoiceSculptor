@@ -92,18 +92,40 @@ You need to specify the local paths to the voice-design model and the xcodec2 mo
 python infer.py
 ```
 
+
+### 5. RAG
+
+You can use the "create_database" script in the "rag" directory to build your own private text vector database. Just replace the model path and input text file path in the script.
+Input text file format: utt file name \t wav_path audio path \t text command text <|endofprompt|> target text
+Example:
+
+ZH_B00074_S00400_W000029        Emilia/ZH/ZH_B00074/ZH_B00074_S00400/mp3/ZH_B00074_S00400_W000029.mp3        这是一位中年男性的中低音有声书朗读，嗓音浑厚略带粗砺，以标准普通话清晰咬字，通过多变的语调 动态的语速和戏剧化的停顿，生动演绎充满张力的动作场景<|endofprompt|>而就在此时，邵飞忽然露出坏笑，他一脚踹在赵和的窝锅子上。赵和顿时扑通一下，跪了下去。
+
+
+```bash
+python rag/create_database.py
+```
+
+Next, congratulations! You have successfully built the text rag database. Now, you can deploy it to the server by running the "run_server" script in the rag folder, and you can also query and call the service through the "client" script. Please note that you need to replace the corresponding database path and model path in the server file, and modify the query IP and port in the client script to be consistent with the run_server settings.
+
+server
+
+```bash
+bash run_server.sh
+```
+
+client
+
+```bash
+python client.py
+```
+
 <!-- ### 4. WebUI
 
 ```bash
 python gradio.py
 ```
-
-
-### 5. RAG
-
-```bash
-python build_rag.py
-``` -->
+-->
 
 
 ## 📋 TODO
@@ -112,8 +134,8 @@ python build_rag.py
 - [x] 🤗 **Release HuggingFace model**
 - [x] 🤗 **HuggingFace Space**
 - [x] 📝 **Release Technical Report**
+- [x] 🔓 **Release RAG code**
 - [ ] 🔓 **Release gradio code**
-- [ ] 🔓 **Release RAG code**
 - [ ] 🔓 **Support vLLM**
 - [ ] 🔓 **Release training code**
 
