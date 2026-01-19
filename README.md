@@ -125,7 +125,7 @@ utt_file_name \t wav_path \t text_command <|endofprompt|> target_text
 
 ```
 
-ZH_B00074_S00400_W000029        Emilia/ZH/ZH_B00074/ZH_B00074_S00400/mp3/ZH_B00074_S00400_W000029.mp3        This is a narration by a middle-aged male speaker with a rich and slightly rough tone, delivering a dynamic and expressive performance in standard Mandarin.<|endofprompt|>At this moment, Shao Fei suddenly revealed a wicked smile and kicked Zhao He’s pot, causing Zhao He to drop to his knees.
+ZH_B00074_S00400_W000029        Emilia/ZH/ZH_B00074/ZH_B00074_S00400/mp3/ZH_B00074_S00400_W000029.mp3        这是一位中年男性的中低音有声书朗读，嗓音浑厚略带粗砺，以标准普通话清晰咬字，通过多变的语调 动态的语速和戏剧化的停顿，生动演绎充满张力的动作场景<|endofprompt|>而就在此时，邵飞忽然露出坏笑，他一脚踹在赵和的窝锅子上。赵和顿时扑通一下，跪了下去。
 
 ```
 
