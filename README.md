@@ -51,7 +51,9 @@ VoiceSculptor is composed of two core components: voice design and voice clone. 
 
 ## 🔥 News
 
-
+- **[2026-1-18]** We have released the RAG and WebUI code, and the WebUI supports vLLM.
+- **[2026-1-16]** We have released the technical report! [VoiceSculptor](https://arxiv.org/abs/2601.10629)
+- **[2026-1-8]** We have released the Demo Page and Demo Video! [VoiceSculptor-Demo-Page](https://hujingbin1.github.io/VoiceSculptor-Demo)
 - **[2026-1-2]** We opened the repository and uploaded the voice design models! [VoiceSculptor](https://huggingface.co/ASLP-lab/VoiceSculptor-VD)
 
 ## 🚀 Getting Started
