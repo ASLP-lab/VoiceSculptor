@@ -178,12 +178,18 @@ python client.py
 ---
 
 
-<!-- ### 4. WebUI
-
+### 5. WebUI
+#### TODO：add instruction manual
 ```bash
-python gradio.py
+python gradio/webui.py
 ```
--->
+
+### 6. vLLM
+#### TODO：add instruction manual
+```bash
+python gradio/webui.py
+```
+
 
 
 ## 📋 TODO
@@ -192,9 +198,10 @@ python gradio.py
 - [x] 🤗 **Release HuggingFace model**
 - [x] 🤗 **HuggingFace Space**
 - [x] 📝 **Release Technical Report**
-- [x] 🔓 **Release RAG code**
-- [ ] 🔓 **Release gradio code**
-- [ ] 🔓 **Support vLLM**
+- [x] 💡 **Release RAG code**
+- [x] ✨ **Release gradio code**
+- [x] 🚀 **Release vLLM code**
+- [ ] 🔓 **Release both the text generation code and a sample dataset**
 - [ ] 🔓 **Release training code**
 
 ## Citation
