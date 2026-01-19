@@ -204,6 +204,7 @@ python gradio/webui.py
 - [x] ✨ **Release gradio code**
 - [x] 🚀 **Release vLLM code**
 - [ ] 🔓 **Release both the text generation code and a sample dataset**
+- [ ] 🔓 **Release the code for voice cloning**
 - [ ] 🔓 **Release training code**
 
 ## Citation
