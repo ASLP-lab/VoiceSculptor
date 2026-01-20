@@ -20,7 +20,7 @@
 <p>
     <img src="assets/llasa3b.png">
 </p>
-VoiceSculptor is composed of two core components: voice design and voice clone. The voice design module enables the generation of timbre from natural language descriptions and supports command refinement through Retrieval-Augmented Generation (RAG). It also provides fine-grained control over voice attributes, including gender, age, speaking rate, fundamental frequency, volume, and emotional expression. The synthesized audio produced by the voice design module can be used as a prompt waveform for the CosyVoice2 voice cloning model, enabling timbre cloning and downstream speech synthesis tasks.
+VoiceSculptor is composed of two core components: voice design and voice clone. The voice design module enables the generation of timbre from natural language descriptions and supports command refinement through Retrieval-Augmented Generation (RAG). It also provides fine-grained control over voice attributes, including gender, age, speaking rate, pitch, volume, and emotional expression. The synthesized audio produced by the voice design module can be used as a prompt waveform for the CosyVoice2 voice cloning model, enabling timbre cloning and downstream speech synthesis tasks.
 
 ## 📊 Instruct TTS Eval
 
